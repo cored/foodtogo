@@ -8,8 +8,9 @@ import org.junit.Test;
 
 import java.util.Date;
 
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
+import static junit.framework.Assert.assertSame;
+import static junit.framework.Assert.assertTrue;
+
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -33,7 +34,7 @@ public class PlaceOrderServiceTest {
         service = new PlaceOrderServiceImpl(mockPendingOrderRepository);
         goodDeliveryAddress = new Address();
         goodDeliveryTime = new Date();
-        pendingOrder = new PendingOrder();
+        pendingOrder = mockPendingOrder;
 
         pendingOrderId = "pendingOrderId";
     }
