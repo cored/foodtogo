@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1a13ea-909b-4bf3-806c-01928bb1183d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodtogo/services/PlaceOrderServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodtogo/services/PlaceOrderServiceTest.java" />
     </list>
     <ignored path="foodtogo.iws" />
@@ -62,19 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaceOrderServiceTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlaceOrderServiceTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/services/PlaceOrderServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="57" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.30174083">
+            <state line="49" column="94" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-11.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PendingOrderTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PendingOrderTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="31" column="50" selection-start="986" selection-end="986" vertical-scroll-proportion="0.39667895">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +92,10 @@
       <file leaf-file-name="RestaurantTestData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="17" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +103,7 @@
       <file leaf-file-name="PlaceOrderServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+            <state line="20" column="80" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +114,7 @@
       <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+            <state line="8" column="12" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +132,18 @@
       <file leaf-file-name="PendingOrder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestaurantRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/repositories/RestaurantRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +154,7 @@
       <file leaf-file-name="PlaceOrderService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+            <state line="8" column="90" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,14 +177,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/repositories/PendingOrderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/repositories/RestaurantRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/foodtogo/services/PlaceOrderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java" />
       </list>
     </option>
   </component>
@@ -370,13 +380,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.foodtogo.repositories" />
       <recent name="com.foodtogo.entities" />
       <recent name="com.foodtogo.values" />
       <recent name="com.foodtogo.services" />
-      <recent name="com.foodtogo.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlaceOrderServiceTest">
+  <component name="RunManager" selected="JUnit.PendingOrderTest.testUpdateDeliveryInfo_good">
     <configuration default="false" name="PlaceOrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -391,6 +401,96 @@
       <option name="MAIN_CLASS_NAME" value="com.foodtogo.services.PlaceOrderServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PendingOrderTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodtogo.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="foodtogo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.foodtogo.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.foodtogo.entities.PendingOrderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlaceOrderServiceTest.testUpdateDeliveryInfo_Valid" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodtogo.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="foodtogo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.foodtogo.services" />
+      <option name="MAIN_CLASS_NAME" value="com.foodtogo.services.PlaceOrderServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateDeliveryInfo_Valid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PendingOrderTest.testUpdateDeliveryInfo_good" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodtogo.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="foodtogo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.foodtogo.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.foodtogo.entities.PendingOrderTest" />
+      <option name="METHOD_NAME" value="testUpdateDeliveryInfo_good" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -557,8 +657,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PlaceOrderServiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PendingOrderTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlaceOrderServiceTest.testUpdateDeliveryInfo_Valid" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PendingOrderTest.testUpdateDeliveryInfo_good" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -596,27 +699,27 @@
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954337" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39833334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.67" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.67" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28234398" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38812786" sideWeight="0.6016667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -703,22 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/repositories/PendingOrderRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.15315315">
@@ -726,23 +813,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/repositories/RestaurantRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="7" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+        <state line="8" column="90" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -751,16 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="20" column="80" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,9 +847,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/services/PlaceOrderServiceResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/RestaurantTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/values/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/services/PlaceOrderServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="57" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.30174083">
+        <state line="49" column="94" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-11.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodtogo/entities/PendingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodtogo/entities/PendingOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="50" selection-start="986" selection-end="986" vertical-scroll-proportion="0.39667895">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

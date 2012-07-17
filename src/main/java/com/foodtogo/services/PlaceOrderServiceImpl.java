@@ -2,6 +2,7 @@ package com.foodtogo.services;
 
 import com.foodtogo.entities.PendingOrder;
 import com.foodtogo.repositories.PendingOrderRepository;
+import com.foodtogo.repositories.RestaurantRepository;
 import com.foodtogo.values.Address;
 
 import java.util.Date;
@@ -15,9 +16,9 @@ public class PlaceOrderServiceImpl implements PlaceOrderService {
     }
 
     @Override
-    public PlaceOrderServiceResult updateDeliveryInfo(String pendingOrderId, Address deliveryAddress, Date deliveryTime) {
+    public PlaceOrderServiceResult updateDeliveryInfo(RestaurantRepository restaurantRepository, String pendingOrderId, Address deliveryAddress, Date deliveryTime) {
         PendingOrder pendingOrder = pendingOrderRepository.findOrCreatePendingOrder(pendingOrderId);
-        boolean success = pendingOrder.updateDeliveryInfo(deliveryAddress, deliveryTime);
+        boolean success = pendingOrder.updateDeliveryInfo(restaurantRepository, deliveryAddress, deliveryTime);
 
         return new PlaceOrderServiceResult(success, pendingOrder);
     }

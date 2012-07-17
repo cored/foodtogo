@@ -2,6 +2,7 @@ package com.foodtogo.services;
 
 import com.foodtogo.entities.PendingOrder;
 import com.foodtogo.repositories.PendingOrderRepository;
+import com.foodtogo.repositories.RestaurantRepository;
 import com.foodtogo.values.Address;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,12 +25,14 @@ public class PlaceOrderServiceTest {
 
     private PendingOrderRepository mockPendingOrderRepository;
     private PendingOrder mockPendingOrder;
+    private RestaurantRepository mockRestaurantRepository;
 
 
     @Before
     public void setUp() throws Exception {
         mockPendingOrderRepository = mock(PendingOrderRepository.class);
         mockPendingOrder = mock(PendingOrder.class);
+        mockRestaurantRepository = mock(RestaurantRepository.class);
 
         service = new PlaceOrderServiceImpl(mockPendingOrderRepository);
         goodDeliveryAddress = new Address();
@@ -42,9 +45,9 @@ public class PlaceOrderServiceTest {
     @Test
     public void testUpdateDeliveryInfo_Valid() throws Exception {
         when(mockPendingOrderRepository.findOrCreatePendingOrder(pendingOrderId)).thenReturn(pendingOrder);
-        when(mockPendingOrder.updateDeliveryInfo(goodDeliveryAddress, goodDeliveryTime)).thenReturn(true);
+        when(mockPendingOrder.updateDeliveryInfo(mockRestaurantRepository, goodDeliveryAddress, goodDeliveryTime)).thenReturn(true);
 
-        PlaceOrderServiceResult result = service.updateDeliveryInfo(pendingOrderId, goodDeliveryAddress, goodDeliveryTime);
+        PlaceOrderServiceResult result = service.updateDeliveryInfo(mockRestaurantRepository, pendingOrderId, goodDeliveryAddress, goodDeliveryTime);
 
         assertTrue(result.isSuccess());
 
